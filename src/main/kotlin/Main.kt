@@ -44,22 +44,22 @@ fun main() {
             System.err.println("Missing station id")
             return
         }
-        val s = sc.nextInt()
 
+        val s = sc.nextInt()
         if (!sc.hasNextInt()) {
             println()
             System.err.println("Missing station unload for station $s")
             return
         }
-        val c_unload = sc.nextInt()
 
+        val c_unload = sc.nextInt()
         if (!sc.hasNextInt()) {
             println()
             System.err.println("Missing station load for station $s")
             return
         }
-        val c_load = sc.nextInt()
 
+        val c_load = sc.nextInt()
         stations[s] = Station(s, c_unload, c_load)
     }
 
@@ -70,14 +70,13 @@ fun main() {
             System.err.println("Missing s_from for track ${ i + 1}")
             return
         }
-        val s_from = sc.nextInt()
 
+        val s_from = sc.nextInt()
         if (!sc.hasNextInt()) {
             println()
             System.err.println("Missing s_to for track ${ i + 1}")
             return
         }
-
         val s_to = sc.nextInt()
 
         if(s_from !in stations || s_to !in stations){
@@ -85,7 +84,6 @@ fun main() {
             System.err.println("Station $s_from or $s_to is not in stations")
             return
         }
-
         adj.computeIfAbsent(s_from) { mutableListOf() }.add(s_to)
     }
 
