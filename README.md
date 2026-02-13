@@ -19,7 +19,7 @@ Implementation of the **Cargo project** task.
    ```
 2. **Open in IntelliJ IDEA**: <br>
 Select "Open" and navigate to the cloned directory.
-3. **Run the app**: <br>
+3. **Run the project**: <br>
 In the Project panel navigate to
 `
 src/main/kotlin/Main.kt
