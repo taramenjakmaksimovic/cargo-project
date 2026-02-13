@@ -18,7 +18,7 @@ Implementation of the **Cargo project** task.
    git clone https://github.com/taramenjakmaksimovic/cargo-project.git
    ```
 2. **Open in IntelliJ IDEA**: <br>
-Select "Open an Existing Project" and navigate to the cloned directory.
+Select "Open" and navigate to the cloned directory.
 3. **Run the app**: <br>
 In the Project panel navigate to
 `
